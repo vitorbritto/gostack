@@ -1,7 +1,7 @@
 {
   "name": "gostack",
-  "version": "0.1.0",
-  "description": "An pretty simple and easy way to find solutions at StackOVerflow.",
+  "version": "0.1.1",
+  "description": "A pretty simple and easy way to find solutions at StackOVerflow.",
   "main": "index.js",
   "bin": {
     "gostack": "bin/gostack",
