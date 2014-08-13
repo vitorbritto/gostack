@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+'use strict';
+
+// =====================================================
+// CONFIGURATION
+// =====================================================
+
+var logger  = require('simlog'),
+    pkg     = require('../package'),
+    input   = process.argv.slice(2),
+    cmd     = require('commander'),
+    gostack = require('../lib');
+
+cmd
+  .version('GoStack v.' + pkg.version, '-v, --version')
+  .usage('stack <question>')
+  .parse(process.argv);
+
+// =====================================================
+// CLI
+// =====================================================
+
+if (input.length > 0) {
+    logger.info('Openning browser... please wait.');
+    gostack.search();
+} else {
+    logger.error('You need to specify a question at least.');
+}
