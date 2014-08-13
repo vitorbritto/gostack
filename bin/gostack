@@ -14,7 +14,8 @@ var logger  = require('simlog'),
 
 cmd
   .version('GoStack v.' + pkg.version, '-v, --version')
-  .usage("stack '<question>'")
+  .option('-V, --votes', 'Shows the articles sorted by their votes' )
+  .usage("stack '<question>' <option>")
   .parse(process.argv);
 
 // =====================================================
@@ -23,7 +24,7 @@ cmd
 
 if (input.length > 0) {
     logger.info('Openning browser... please wait.');
-    gostack.search();
+    gostack.search({votes: cmd.votes});
 } else {
     logger.error('You need to specify a question at least.');
 }

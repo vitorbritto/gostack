@@ -13,7 +13,7 @@ This will make `gostack` and the shorter `stack` alias available on the command 
 ## Usage
 
 ```bash
-$ stack '<question>'
+$ stack '<question>' <options>
 ```
 
 **Important:** run `stack -h` to output help.
