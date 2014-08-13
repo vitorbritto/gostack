@@ -14,7 +14,7 @@ var logger  = require('simlog'),
 
 cmd
   .version('GoStack v.' + pkg.version, '-v, --version')
-  .usage('stack <question>')
+  .usage("stack '<question>'")
   .parse(process.argv);
 
 // =====================================================

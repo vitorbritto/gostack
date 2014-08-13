@@ -13,7 +13,7 @@ This will make `gostack` and the shorter `stack` alias available on the command 
 ## Usage
 
 ```bash
-$ stack <question>
+$ stack '<question>'
 ```
 
 **Important:** run `stack -h` to output help.
@@ -21,7 +21,7 @@ $ stack <question>
 ## Example
 
 ```bash
-$ stack What is NodeJS?
+$ stack 'What is NodeJS?'
 ```
 
 ## Contribute
