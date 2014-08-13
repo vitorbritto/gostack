@@ -1,6 +1,6 @@
 # Go StackOverflow [![NPM version](https://badge.fury.io/js/gostack.svg)](http://badge.fury.io/js/gostack) [![GitHub version](https://badge.fury.io/gh/vitorbritto%2Fgostack.svg)](http://badge.fury.io/gh/vitorbritto%2Fgostack)
 
-A pretty simple and easy way to find solutions at StackOVerflow.
+A pretty simple and easy way to find solutions at StackOverflow.
 
 ## Install
 
