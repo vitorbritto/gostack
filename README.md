@@ -24,6 +24,15 @@ $ stack '<question>' <options>
 $ stack 'What is NodeJS?'
 ```
 
+### Sort the articles by number of votes
+```bash
+$ stack 'What is NodeJS?' -V
+```
+or
+```bash
+$ stack 'What is NodeJS?' --votes
+```
+
 ## Contribute
 
 Feel free to [contribute](https://github.com/vitorbritto/gostack/pulls) with this project or leave a [suggestion](https://github.com/vitorbritto/gostack/issues).
